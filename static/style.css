@@ -12,3 +12,116 @@ h1 {
 p {
     font-size: 18px;
 }
+
+/* Genel Stil */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a2e;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #16213e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4b5c;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: #ff4b5c;
+}
+
+/* Ana İçerik */
+.container {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Butonlar */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.primary {
+    background: #ff4b5c;
+    color: white;
+}
+
+.primary:hover {
+    background: #ff1e3c;
+}
+
+.secondary {
+    background: #1f4068;
+    color: white;
+}
+
+.secondary:hover {
+    background: #0f3460;
+}
+
+/* Hakkında Bölümü */
+#about {
+    background: #0f3460;
+    padding: 50px 20px;
+    margin-top: 50px;
+}
+
+.about-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 24px;
+}

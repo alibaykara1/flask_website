@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Ana Sayfa</h1>"
+    return render_template("index.html")
 
 @app.route("/hakkimda")
 def hakkimda():

@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flask Web Sitesi</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Merhaba, Flask ile İlk Web Sitem!</h1>
-    <p>Bu, Flask kullanarak yaptığımız ilk web sayfasıdır.</p>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">FlaskPro</div>
+        <ul>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="/hakkimda">Hakkında</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <!-- Ana İçerik -->
+    <div class="container">
+        <h1>Merhaba, Flask ile İlk Web Sitem!</h1>
+        <p>Flask kullanarak modern ve şık web siteleri geliştirebilirsiniz.</p>
+        <div class="buttons">
+            <a href="#" class="btn primary">Başla</a>
+            <a href="/hakkimda" class="btn secondary">Hakkında</a>
+        </div>
+    </div>
+
+    <!-- Hakkında Bölümü -->
+    <section id="about">
+        <div class="about-content">
+            <h2>Hakkında</h2>
+            <p>Bu proje, Flask kullanarak temel bir web sitesi oluşturmayı öğrenmek için geliştirilmiştir. Flask, Python tabanlı güçlü bir web framework'üdür.</p>
+        </div>
+    </section>
+
 </body>
 </html>
